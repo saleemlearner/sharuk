@@ -1,0 +1,10 @@
+The git add command is used to add file contents to the Index (Staging Area).This command updates the current content of the working tree to the staging area. It also prepares the staged content for the next commit. Every time we add or update any file in our project, it is required to forward updates to the staging area.
+
+The git add command is a core part of Git technology. It typically adds one file at a time, but there some options are available that can add more than one file at once.
+
+The "index" contains a snapshot of the working tree data. This snapshot will be forwarded for the next commit.
+
+The git add command can be run many times before making a commit. These all add operations can be put under one commit. The add command adds the files that are specified on command line.
+
+
+The git add command does not add the .gitignore file by default. In fact, we can ignore the files by this command.
